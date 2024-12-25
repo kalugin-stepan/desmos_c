@@ -1,0 +1,7 @@
+.vscode
+include
+lib
+main.exe
+SDL2_ttf.dll
+SLD2.dll
+test.exe
