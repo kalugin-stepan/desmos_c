@@ -2,6 +2,8 @@
 include
 lib
 main.exe
+main
 SDL2_ttf.dll
-SLD2.dll
+SDL2.dll
 test.exe
+test

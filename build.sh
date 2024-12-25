@@ -1,0 +1,1 @@
+gcc main.c parser.c -o main `sdl2-config --cflags --libs` -lSDL2 -lSDL2_ttf

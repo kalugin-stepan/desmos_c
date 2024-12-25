@@ -4,10 +4,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <malloc.h>
-#include <Windows.h>
+#include <sys/time.h>
 #include <SDL2/SDL.h>
-
-#define NAN 0.0/0.0
 
 typedef struct expresion_node expresion_node;
 

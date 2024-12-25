@@ -6,10 +6,10 @@
 double t0;
 
 double time_ms() {
-    FILETIME ft;
-  GetSystemTimeAsFileTime(&ft);
-  __int64* val = (__int64*) &ft;
-  return ((double)(*val)) / 10000.0 - 11644473.0;
+    struct timeval tv;
+    gettimeofday(&tv, NULL);
+
+    return 1000*(tv.tv_sec) + (tv.tv_usec)/1000;
 }
 
 void set_t0() {
